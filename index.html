@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/293abf4b96.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Task List Plus</title>
+    <!-- 51:01 -->
+</head>
+<body>
+    <header>
+    <h1>Task List Plus</h1>
+    <h5>Get Stuff Done</h5>
+    </header>
+    
+    <form>
+        <input type="text" class="todo-input">
+        <button class="add-todo-btn">
+            <i class="fas fa-plus-square"></i>
+        </button>
+        <div class="select">
+            <select name="todos" class="filter-todo">
+                <option value="all">All</option>
+                <option value="all">Completed</option>
+                <option value="all">Not Completed</option>
+            </select>
+        </div>
+    </form>
+    <div class="todo-list-container">
+        <ul class="todo-list">
+            <!-- The lis and buttons for them will be added dynamically with JS -->
+        </ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
